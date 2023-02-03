@@ -33,7 +33,7 @@ body {
 	display: flex;
 }
 
-#mostrarMais {
+#mostrarMais, #verMais {
 	display: none;
 }
 
@@ -41,7 +41,7 @@ body {
 	color: azure;
 	font-size: 30px;
 	margin: 15px;
-	padding-top: 15px;
+	padding-top: 10px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: lighter;
 }
@@ -55,15 +55,18 @@ body {
 	text-align: justify;
 }
 
-#btnLeiaMais {
+#btnLeiaMais, #btnVerMais {
 	border: none;
 	color: rgb(13, 19, 33);
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	font-size: 16px;
-	margin-left: 145px;
+	margin-left: 155px;
 	margin-top: 6px;
 	margin-bottom: 1px;
+	color: azure;
+	background-color: rgb(13, 19, 33);
+	text-decoration: underline;
 }
 
 #cursos {
@@ -72,6 +75,7 @@ body {
 	width: 100%;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
+	padding-top: 40px;
 }
 
 #endereco {
@@ -83,3 +87,22 @@ body {
 #mapa {
 	padding-left: 20px;
 }
+
+#curso1, #curso2, #curso3, #curso4, #curso5, #curso6,
+#curso7, #curso8, #curso9, #curso10, #curso11, #curso12,
+#curso13, #curso14, #curso15 {
+	border: 0.5px;
+	border-style: solid;
+	padding: 4px;
+	width: 85%;
+	margin-left: 6.5%;
+}
+
+#curso1 > *, #curso2 > *, #curso3 > *, #curso4 > *, #curso5 > *, #curso6 > *,
+#curso7 > *, #curso8 > *, #curso9 > *, #curso10 > *, #curso11 > *, #curso12 > *,
+#curso13 > *, #curso14 > *, #curso15 > * {
+	margin: 6px 0px 6px 0px;
+	display: flex;
+	justify-content: center;
+}
+
