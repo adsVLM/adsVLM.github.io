@@ -2,6 +2,11 @@
 	margin-top: -6px;
 	color: azure;
 } */
+
+header > * {
+	position: fixed;
+}
+
 .linha {
 	border-bottom: 2px solid rgba(255, 255, 255);
 }
@@ -93,23 +98,63 @@ article > h1 {
 	padding-top: 40px;
 }
 
-#endereco {
+#info {
 	color: azure;
 	font-family: 'Montserrat', sans-serif;
-	text-align: center;
+	text-align: justify;
+	margin: 5px;
+}
+
+#end, #hora, #tel {
+	font-size: 20px;
+	font-weight: 600;
+	margin: 5px;
+	margin-top: 30px;
+}
+
+#endereco, #horario, #telefone {
+	text-align: start;
+	padding-left: 5px;
+	margin-top: 7px;
+	margin-bottom: 15px;
+}
+
+#ifpb {
+	width: 90%;
+	padding-left: 20px;
+	margin-bottom: 15px;
+	display: flex;
+	justify-content: center;
 }
 
 #mapa {
 	display: flex;
 	justify-content: center;
+	padding-left: 20px;
 }
+
+#blocoBaixo {
+	display: flex;
+	width: 100%;
+	background-color: rgb(13, 19, 33);
+	padding-top: 30px;
+	padding-bottom: 32px;
+	justify-content: space-evenly;
+	box-shadow: 0px 1px 6px black;
+	margin-top: 15px;
+}
+
+#blocoBaixo > * {
+	width: 10%;
+}
+
 
 #curso1, #curso2, #curso3, #curso4, #curso5, #curso6,
 #curso7, #curso8, #curso9, #curso10, #curso11, #curso12,
 #curso13, #curso14, #curso15 {
 	border: 0.5px;
 	border-style: solid;
-	padding: 4px;
+	padding-top: 5px;
 	width: 85%;
 	margin-left: 6.5%;
 }
@@ -117,7 +162,7 @@ article > h1 {
 #curso1 > *, #curso2 > *, #curso3 > *, #curso4 > *, #curso5 > *, #curso6 > *,
 #curso7 > *, #curso8 > *, #curso9 > *, #curso10 > *, #curso11 > *, #curso12 > *,
 #curso13 > *, #curso14 > *, #curso15 > * {
-	margin: 6px 0px 6px 0px;
+	margin: 2px;
 	display: flex;
 	justify-content: center;
 }
