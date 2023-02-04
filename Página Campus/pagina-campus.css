@@ -1,8 +1,11 @@
-#linha, #linha2, #linha3, #linha4 {
+/* #linha, #linha2, #linha3, #linha4 {
 	margin-top: -6px;
 	color: azure;
+} */
+.linha {
+	border-bottom: 2px solid rgba(255, 255, 255);
 }
-
+/*
 #blocoCima {
 	width: 390px;
 	padding-top: 32px;
@@ -11,30 +14,35 @@
 	display: flex;
 }
 
-#menu {
+ #menu {
 	padding-left: 25px;
 	padding-top: 5px;
 	color: white;
 	font-size: 20px;
 	font-weight: bold;
 	font-stretch: expanded;
-}
+} */
 
-body {
-	background-color: rgb(13, 19, 33);
-}
 
-#iconeMenu {
+/* #iconeMenu {
 	width: 30px;
 	padding-left: 150px;
 }
 
 #imagem {
 	display: flex;
+} */
+article{
+	display: flex;
+	flex-direction: column;
 }
-
 #mostrarMais, #verMais {
 	display: none;
+}
+
+.flexmain{
+	display: flex;
+	flex-direction: column;
 }
 
 #sobre, #cursosIf {
@@ -46,27 +54,34 @@ body {
 	font-weight: lighter;
 }
 
-#paragrafo {
+p {
 	color: azure;
-	font-size: 18px;
-	margin-top: 10px;
-	width: 100%;
+	padding: 8px 10px;
+	font-size: 1rem;
+	/* margin-top: 10px; */
+	max-width: 95%;
 	font-family: 'Montserrat', sans-serif;
 	text-align: justify;
 }
-
+p > span, p + button {
+	text-align: center;
+}
+article > h1 {
+	text-align: center;
+}
 #btnLeiaMais, #btnVerMais {
 	border: none;
+	margin:10px 0;
 	color: rgb(13, 19, 33);
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
-	font-size: 16px;
-	margin-left: 155px;
-	margin-top: 6px;
-	margin-bottom: 1px;
+	font-size: 1.2rem;
+
 	color: azure;
 	background-color: rgb(13, 19, 33);
 	text-decoration: underline;
+	transition: 0.5s;
+
 }
 
 #cursos {
@@ -81,11 +96,12 @@ body {
 #endereco {
 	color: azure;
 	font-family: 'Montserrat', sans-serif;
-	text-align: justify;
+	text-align: center;
 }
 
 #mapa {
-	padding-left: 20px;
+	display: flex;
+	justify-content: center;
 }
 
 #curso1, #curso2, #curso3, #curso4, #curso5, #curso6,
