@@ -160,7 +160,7 @@ button {
 	justify-content: flex-end;
   }
   #nav.active #menu {
-    height: calc(41.2px *4);
+    height: calc(41.2px * 4);
     visibility: visible;
     overflow-y: auto;
   }
