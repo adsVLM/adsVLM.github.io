@@ -1,0 +1,136 @@
+
+
+
+article{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#mostrarMais, #verMais {
+	display: none;
+}
+
+p {
+	color: azure;
+	padding: 8px 10px;
+	font-size: 1rem;
+	/* margin-top: 10px; */
+	max-width: 95%;
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+}
+p > span, p + button {
+	text-align: center;
+}
+article > h1 {
+	text-align: center;
+}
+
+
+:root{
+    --color-white: #fff;
+    --color-red: #e63636;
+    --color-dark1: #181818;
+    --color-dark2: #1e1e1e;
+    --color-green: #72C934;
+
+}
+
+.formulario {
+	background-color: var(--color-dark2);
+    padding: 1rem;
+    border-radius: 10px;
+    min-width: 80%;
+    overflow: auto;
+	/*box-shadow: 0px 1px 15px 5px #0F3460;*/
+}
+
+
+h1{
+    margin-bottom: 1rem;
+    text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.span-required{
+    font-size: 12px;
+    margin: 3px 0 0 1px;
+    color: var(--color-red);
+    display: none;
+}
+
+.inputs{
+    padding: 8px 5px;
+    outline: none;
+    border-radius: 5px;
+    background-color: var(--color-dark1);
+    border: 2px solid var(--color-dark1);
+    color: var(--color-white);
+    width: 100%;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.inputs:focus{
+    border-color: var(--color-green);
+}
+
+
+button[type="submit"]{
+    padding: 1rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    background-color: var(--color-green);
+    color: var(--color-white);
+    cursor: pointer;
+    transition: .3s;
+}
+
+button[type="submit"]:hover{
+    background-color: var(--color-green);
+}
+
+
+
+#info {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	color: azure;
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+	margin: 5px;
+}
+
+#atendimentoPresencial, #tel, #contato  {
+	font-size: 20px;
+	font-weight: 600;
+	margin: 5px;
+	margin-top: 30px;
+}
+
+#infoAtendimento, #telefone, #mensagem {
+	text-align: center;
+	padding-left: 5px;
+	margin-top: 7px;
+	margin-bottom: 15px;
+}
+
+textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+}
