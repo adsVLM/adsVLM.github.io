@@ -1,0 +1,108 @@
+
+.linha {
+	height: 2px;
+    width: 100%;
+	border-bottom: 2px solid rgba(255, 255, 255);
+}
+
+article{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#mostrarMais, #verMais {
+	display: none;
+}
+
+.flexmain{
+	display: flex;
+	flex-direction: column;
+}
+
+#sobre, #cursosIf {
+	color: azure;
+	font-size: 30px;
+	margin: 15px;
+	padding-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+}
+
+p .span-required {
+	color: azure;
+	padding: 8px 10px;
+	font-size: 1rem;
+	/* margin-top: 10px; */
+	max-width: 95%;
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+}
+p > span, p + button {
+	text-align: center;
+}
+article > h1 {
+	text-align: center;
+}
+#btnLeiaMais, #btnVerMais {
+	border: none;
+	margin:10px 0;
+	color: rgb(13, 19, 33);
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 1.2rem;
+
+	color: azure;
+	background-color: rgb(13, 19, 33);
+	text-decoration: underline;
+	transition: 0.5s;
+
+}
+
+#cursos {
+	color: azure;
+	font-size: 16px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 40px;
+}
+
+#info {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	color: azure;
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+	margin: 5px;
+}
+
+#end, #hora, #tel {
+	font-size: 20px;
+	font-weight: 600;
+	margin: 5px;
+	margin-top: 30px;
+}
+
+#endereco, #horario, #telefone {
+	text-align: start;
+	padding-left: 5px;
+	margin-top: 7px;
+	margin-bottom: 15px;
+}
+
+#ifpb {
+	min-width: 250px;
+	max-width: 85%;
+	margin: 15px 0;
+}
+
+#mapa {
+	display: flex;
+	justify-content: center;
+	padding-left: 20px;
+}
+
+
+
+
