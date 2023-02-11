@@ -45,10 +45,13 @@ function removeError(index){
     }
 
     function telefoneValidate (){
-        if (campos[2].value.length< 11){
+        if (campos[2].value.length != 11){
             setError(2)
         }
-        else {
+        else if (campos[2].value.length != Number){
+            setError(2)
+        }
+        else{
             removeError(2)
         }
     }
