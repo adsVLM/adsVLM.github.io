@@ -116,12 +116,12 @@ a {
   font-weight: bold;
   display: block;
   padding: 10px 20px;
-  background-color: #74cc34;
-  color: black;
+  background-color: rgb(15, 52, 96);
+  color: white;
 }
 #menu li a:hover {
-  background-color: #d40404;
-  color: white;
+  transition: 200ms;
+  background-color: #0d1321;
 }
 
 #btn-mobile {
@@ -219,7 +219,7 @@ button {
 p, a, h1, h2, h3, td {
   color: azure;
   font-family: 'Montserrat', sans-serif;
-	text-align: justify;
+	text-align: left;
 }
 .linha {
 	height: 2px;
@@ -237,10 +237,11 @@ article, section {
 	margin: 15px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: lighter;
+  text-align: center;
 }
 p, td {
 	padding: 8px 10px;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	max-width: 95%;
 }
 #video {
@@ -274,7 +275,7 @@ footer {
 }
 #blocoBaixo {
 	display: flex;
-	background-color: rgb(13, 19, 33);
+	background-color: #0f3460;
 	padding-top: 30px;
 	padding-bottom: 32px;
 	justify-content: space-evenly;
