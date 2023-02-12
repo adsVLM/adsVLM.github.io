@@ -1,0 +1,50 @@
+.tabela {
+    margin: 0;
+    display: block;
+    visibility: hidden;
+    overflow-y: hidden;
+    height: 0px;
+    transition: 500ms;
+}
+.periodos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95vw;
+}
+.periodo {
+    width: 50%;
+    height: 50px;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    background: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.periodo:nth-child(1){
+    margin-top: 10px;
+}
+.periodo:hover {
+    transition: 300ms;
+    background: rgba(0, 0, 0, 0.3);
+
+}
+.active + .tabela{
+    height: 60vh;
+    visibility: visible;
+    overflow-y: auto;
+}
+#p3.active + .tabela {
+    height: 260px;
+}
+.tabela td {
+    text-align: left;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    margin-top: auto;
+}
