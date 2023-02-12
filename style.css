@@ -113,6 +113,7 @@ a {
 }
 
 #menu li a {
+  font-weight: bold;
   display: block;
   padding: 10px 20px;
   background-color: #74cc34;
