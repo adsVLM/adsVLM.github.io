@@ -5,6 +5,6 @@ Visite o site [aqui](https://adsvlm.github.io).
 O site é feito a partir de informações sobre o curso e o campus IFPB Cajazeiras encontradas no [portal do estudante](https://estudante.ifpb.edu.br/cursos/12/).
 
 ## Contribuidores
-[Veríssimo Pereira](https://github.com/verissimon)
-[Marianna Lopes](https://github.com/MariLopes1223)
-[Leivas Henrique Aquino](https://github.com/Leiv4s)
+[Veríssimo Pereira](https://github.com/verissimon)   
+[Marianna Lopes](https://github.com/MariLopes1223)   
+[Leivas Henrique Aquino](https://github.com/Leiv4s)   
