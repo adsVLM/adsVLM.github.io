@@ -215,7 +215,7 @@ button {
 }
 
 /* FIM DO HEADER NAVBAR */
-p, a, h1, h2, h3 {
+p, a, h1, h2, h3, td {
   color: azure;
   font-family: 'Montserrat', sans-serif;
 	text-align: justify;
@@ -223,9 +223,9 @@ p, a, h1, h2, h3 {
 .linha {
 	height: 2px;
   width: 100%;
-	border-bottom: 2px solid rgba(255, 255, 255);
+	border-bottom: 2px solid rgba(240, 255, 255, 0.1);
 }
-article{
+article, section {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -237,11 +237,31 @@ article{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: lighter;
 }
-p {
+p, td {
 	padding: 8px 10px;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	max-width: 95%;
 }
+#video {
+  margin: 10px 0;
+}
+table {
+  margin: 10px 0;
+}
+tr {
+  border-bottom: 1px solid rgba(240, 255, 255, 0.1);
+}
+td {
+  font-size: 1rem;
+}
+.colEsq {
+  max-width: 75vw;
+  border-right: 1px solid rgba(240, 255, 255, 0.1);
+}
+.colDir {
+  width: 25%;
+}
+
 
 /* FOOTER */
 footer {
