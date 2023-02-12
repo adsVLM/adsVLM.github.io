@@ -30,16 +30,11 @@
 
 }
 .active + .tabela{
-    height: 60vh;
+    height: 310px;
     visibility: visible;
     overflow-y: auto;
 }
-#p3.active + .tabela {
-    height: 260px;
-}
-.tabela td {
-    text-align: left;
-}
+
 body {
     min-height: 100vh;
     display: flex;
