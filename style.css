@@ -151,7 +151,7 @@ button {
     width: 100%;
     top: 70px;
     right: 0px;
-    background: whitesmoke;
+    background-color: #0f3460;
     transition: 0.5s;
     z-index: 1000;
     height: 0px;
@@ -241,12 +241,13 @@ article, section {
 }
 p, td {
 	padding: 8px 10px;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	max-width: 95%;
 }
 #video {
   margin: 10px 0;
 }
+
 table {
   margin: 10px 0;
 }
