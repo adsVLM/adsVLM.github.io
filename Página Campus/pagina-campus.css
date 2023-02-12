@@ -1,15 +1,3 @@
-
-.linha {
-	height: 2px;
-    width: 100%;
-	border-bottom: 2px solid rgba(255, 255, 255);
-}
-
-article{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
 #mostrarMais, #verMais {
 	display: none;
 }
@@ -19,24 +7,6 @@ article{
 	flex-direction: column;
 }
 
-#sobre, #cursosIf {
-	color: azure;
-	font-size: 30px;
-	margin: 15px;
-	padding-top: 10px;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: lighter;
-}
-
-p {
-	color: azure;
-	padding: 8px 10px;
-	font-size: 1rem;
-	/* margin-top: 10px; */
-	max-width: 95%;
-	font-family: 'Montserrat', sans-serif;
-	text-align: justify;
-}
 p > span, p + button {
 	text-align: center;
 }
